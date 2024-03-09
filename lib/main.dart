@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:watchkeun/common/constants.dart';
+import 'package:watchkeun/common/ssl.dart';
 import 'package:watchkeun/common/utils.dart';
 import 'package:watchkeun/injection.dart' as di;
 import 'package:watchkeun/presentation/controller/movie_detail_controller/movie_detail_cubit.dart';
@@ -41,6 +42,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   FirebaseAnalytics.instance;
+  await SSLPinning.init();
   di.init();
 
   SystemChrome.setPreferredOrientations(

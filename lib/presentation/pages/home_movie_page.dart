@@ -51,7 +51,7 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
         isMovie: true,
       ),
       appBar: AppBar(
-        title: const Text('Ditonton - Movie'),
+        title: const Text('WatchKeun - Movie'),
         actions: [
           IconButton(
             onPressed: () => Navigator.pushNamed(context, SearchPage.routeName),

@@ -18,7 +18,7 @@ class DrawerView extends StatelessWidget {
         children: [
           const UserAccountsDrawerHeader(
             currentAccountPicture: CircleAvatar(
-              backgroundImage: AssetImage('assets/circle-g.png'),
+              backgroundImage: AssetImage('assets/app_icon.png'),
             ),
             accountName: Text('Ditonton'),
             accountEmail: Text('ditonton@dicoding.com'),

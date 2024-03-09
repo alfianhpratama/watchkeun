@@ -1,5 +1,6 @@
 import 'package:http/http.dart' as http;
 import 'package:get_it/get_it.dart';
+import 'package:watchkeun/common/ssl.dart';
 import 'package:watchkeun/data/datasources/db/database_helper.dart';
 import 'package:watchkeun/data/datasources/movie_local_data_source.dart';
 import 'package:watchkeun/data/datasources/movie_remote_data_source.dart';
@@ -153,5 +154,5 @@ void init() {
   locator.registerLazySingleton<DatabaseHelper>(() => DatabaseHelper());
 
   // external
-  locator.registerLazySingleton(() => http.Client());
+  locator.registerLazySingleton(() => SSLPinning.client);
 }

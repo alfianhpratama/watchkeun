@@ -49,7 +49,7 @@ class _SeriesPageState extends State<SeriesPage> {
     return Scaffold(
       drawer: DrawerView(onRefresh: _refreshPage, isMovie: false),
       appBar: AppBar(
-        title: const Text('Ditonton - TV Series'),
+        title: const Text('WatchKeun - TV Series'),
         actions: [
           IconButton(
             onPressed: () => Navigator.pushNamed(

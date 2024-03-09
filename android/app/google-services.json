@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745634079842",
+    "project_id": "watchkeun",
+    "storage_bucket": "watchkeun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745634079842:android:379eb3d5ab8ace54761d3b",
+        "android_client_info": {
+          "package_name": "id.alfianhpratama.watchkeun"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv_gBPLmC5WbDd3VXYnFze5J7uUgQpkKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

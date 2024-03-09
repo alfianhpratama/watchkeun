@@ -1,0 +1,5 @@
+package id.alfianhpratama.watchkeun
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity()
